@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', 'Arial', 'Helvetica', 'sans-serif';
+    background-image: url('/images/bj.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    color: goldenrod;
+    margin-top: 90px;
+}
+
+p{
+    color: white;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button{
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
